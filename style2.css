@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    outline: none;
+border: none;
+text-decoration: none;
+}
+.navbar {
+    background-color: crimson; font-family: Arial, Helvetica, sans-serif; padding-right: 15px; padding-left: 15px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    text-decoration: none;
+}
+.navdiv {
+    display: flex;align-items: center;justify-content: space-between;
+}
+li{
+    list-style: none;display: inline-block;
+}
+li a{
+    color: black;font-size: 18px;font-weight: bold;margin-right: 25px;
+}
+.home-content {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+.Home img{
+    display: flex;
+    align-items: center;
+}
+.logo{
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ margin-right: 850px;
+ flex-direction: column;
+}
+.navdiv h1{
+    display: flex;
+    justify-content: flex-start;
+}
+.Home-Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Home-Image img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding: 5px;
+    border: crimson solid;
+}
+li:hover {
+    background-color: white;
+    color: red;
+    pointer-events: stroke;
+}
+.home-content span {
+    color: crimson;
+
+}
+.home-content span:hover {
+    font-size: larger;
+}
+.btn {
+    border: crimson solid 5px;
+    color: aliceblue;
+    transition: 1s;
+}
+.btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.btn:active {
+    background-color: crimson;
+    color: aliceblue;
+}
+i:first-child {
+    border-radius: 50%;
+    background-color: pink;
+    color: white;
+    border: 5px solid pink;
+    font-size: 50px;
+}
+i:nth-child(2){
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    border: 5px solid blue;
+    font-size: 50px;
+}
+i:nth-child(3){
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    border: 5px solid orangered;
+     font-size: 50px;
+
+}
+i:last-child{
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 5px solid white; 
+    font-size: 50px;
+}
